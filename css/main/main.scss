@@ -15,7 +15,6 @@ body{
     font-style: normal;
     font-weight: normal;
     src: url('../../fonts/Italianno/Italianno-Regular.ttf');
-    src: local('Italianno'), url('../../fonts/Italianno/Italianno-Regular.ttf') format('ttf');
 }
 
 @font-face {
@@ -23,7 +22,6 @@ body{
     font-style: italic;
     font-weight: normal;
     src: url('../../fonts/Jumbooi/jumbooi.ttf');
-    src: local('Jumbo Outline'), url('../../fonts/Jumbooi/jumbooi.ttf') format('ttf');
 }
 
 @font-face {
@@ -31,5 +29,4 @@ body{
     font-style: normal;
     font-weight: normal;
     src: url('../../fonts/Jumbooi/Jumbo_Outline_Regular.ttf');
-    src: local('Jumbo Outline'), url('../../fonts/Jumbooi/Jumbo_Outline_Regular.ttf') format('ttf');
 }
