@@ -1,0 +1,41 @@
+.swiper-container,
+.swiper-wrapper {
+  height: 60px;
+  width: 100vw;
+  background: #90FF00;
+  display: flex;
+  align-items: flex-end;
+}
+
+.swiper-container {
+  overflow-x: hidden;
+
+  .swiper-wrapper {
+    display: flex;
+    align-items: flex-end;
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      width: auto;
+      margin: 0 8px;
+
+      .thumbContainer {
+        opacity: 1;
+
+        .projectInfo {
+          position: relative;
+          margin: 0 0 20px 0;
+          z-index: -1;
+          text-transform: uppercase;
+          h3 {
+            line-height: 20px;
+            font-size: 20px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

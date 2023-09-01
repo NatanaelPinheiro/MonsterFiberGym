@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Italianno&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #181820;
+}
+
+@font-face {
+  font-family: "fail";
+  font-style: normal;
+  font-weight: normal;
+  src: local("fail"), url("../../fonts/fail/FailFont.woff") format("woff");
+}
+@font-face {
+  font-family: "Jumbo Outline";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../../fonts/Jumbooi/jumbooi.ttf");
+  src: local("Jumbo Outline"), url("../../fonts/Jumbooi/jumbooi.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Jumbo Outline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/Jumbooi/Jumbo_Outline_Regular.ttf");
+  src: local("Jumbo Outline"), url("../../fonts/Jumbooi/Jumbo_Outline_Regular.ttf") format("ttf");
+}/*# sourceMappingURL=main.css.map */

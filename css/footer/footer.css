@@ -1,0 +1,60 @@
+.footer {
+  background-color: #0f0f12;
+  width: 100%;
+  padding: 0 5rem;
+}
+.footer--link-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+.footer--link-row--more-info img {
+  width: 200px;
+  height: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer--link-row--more-info p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 400px;
+}
+.footer--link-row--links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.footer--link-row--links h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+.footer--link-row--links li {
+  list-style: none;
+  margin-bottom: 0.8rem;
+}
+.footer--link-row--links li a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 800;
+}
+.footer--link-row--links li a:hover {
+  text-decoration: underline;
+}
+.footer--copy-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  color: #d8d8d8;
+  border-top: 1.5px solid #181820;
+  text-transform: uppercase;
+}
+.footer--copy-row span {
+  color: #90FF00;
+}/*# sourceMappingURL=footer.css.map */

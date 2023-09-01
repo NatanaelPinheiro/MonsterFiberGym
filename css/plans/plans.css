@@ -1,0 +1,145 @@
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 5rem 0 5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.plans--header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plans--header h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+}
+.plans--header p {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+.plans--header p span {
+  color: #90FF00;
+  font-weight: bold;
+}
+.plans--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+.plans--content--card {
+  height: 340px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.plans--content--card--header {
+  border-bottom: 1.5px solid #fff;
+}
+.plans--content--card--header h3 {
+  font-size: 25px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.plans--content--card--header h3 span {
+  font-size: 30px;
+  font-family: "Jumbo Outline", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.plans--content--card--header .price {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.plans--content--card--header .price-sub {
+  letter-spacing: normal;
+  font-size: 15px;
+}
+.plans--content--card--body p {
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: bold;
+}
+.plans--content--card--body button {
+  cursor: pointer;
+  padding: 0.6rem 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.plans--content #basic-plan {
+  flex: 30%;
+  background: #27282D;
+  padding: 1rem 1.5rem;
+}
+.plans--content #basic-plan .plans--content--card--header {
+  padding-bottom: 1rem;
+}
+.plans--content #basic-plan .plans--content--card--header h3 {
+  color: #fff;
+}
+.plans--content #basic-plan .plans--content--card--header .price {
+  color: #fff;
+}
+.plans--content #basic-plan .plans--content--card--body p {
+  color: #fff;
+  padding: 1rem 0;
+}
+.plans--content #basic-plan .plans--content--card--body button {
+  border: 1.5px solid #90FF00;
+  color: #90FF00;
+  background: linear-gradient(#90FF00 0 0) left/var(--p, 0%) no-repeat;
+  color: #90FF00;
+  transition: background 0.6s, color 0.1s, background-position 0s;
+  transition-delay: 0.1s;
+}
+.plans--content #basic-plan .plans--content--card--body button:hover {
+  color: #181820;
+  background-position: right;
+  --p: 100%;
+}
+.plans--content #advanced-plan {
+  flex: 60%;
+  background: #90FF00;
+  padding: 0 2rem;
+}
+.plans--content #advanced-plan .plans--content--card--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  border-color: #181820;
+}
+.plans--content #advanced-plan .plans--content--card--header h3 {
+  color: #181820;
+}
+.plans--content #advanced-plan .plans--content--card--header .price {
+  color: #181820;
+}
+.plans--content #advanced-plan .plans--content--card--body p {
+  color: #181820;
+  padding: 1.5rem 0;
+}
+.plans--content #advanced-plan .plans--content--card--body button {
+  border: 2px solid #181820;
+  background: linear-gradient(#181820 0 0) right/var(--p, 100%) no-repeat;
+  color: #fff;
+  transition: background 0.6s, color 0.1s, background-position 0s;
+  transition-delay: 0.1s;
+}
+.plans--content #advanced-plan .plans--content--card--body button:hover {
+  color: #181820;
+  background-position: left;
+  --p: 0%;
+}/*# sourceMappingURL=plans.css.map */

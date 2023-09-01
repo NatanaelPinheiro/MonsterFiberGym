@@ -1,0 +1,168 @@
+.plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 5rem 0 5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    &--header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            font-size: 30px;
+            line-height: 1.4;
+            text-transform: capitalize;
+            color: #fff;
+            text-align: center;
+        }
+        p{
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+
+            span{
+                color: #90FF00;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &--content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 3rem;
+
+        &--card{
+            height: 340px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &--header{
+                border-bottom: 1.5px solid #fff;
+                h3{
+                    font-size: 25px;
+                    line-height: 1.2;
+                    text-transform: capitalize;
+                    margin-bottom: 1rem;
+                    span{
+                        font-size: 30px;
+                        font-family: 'Jumbo Outline', sans-serif;
+                        font-style: normal;
+                        text-transform: uppercase;
+                    }
+                }
+                .price{
+                    font-size: 25px;
+                    text-transform: capitalize;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    &-sub{
+                        letter-spacing: normal;
+                        font-size: 15px;
+                    }
+                }
+            }
+            &--body{
+                p{
+                    line-height: 1.5;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+                button{
+                    cursor: pointer;
+                    padding: 0.6rem 2rem;
+                    border-radius: 10px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        #basic-plan{
+            flex: 30%;
+            background: #27282D;
+            padding: 1rem 1.5rem;
+
+            .plans--content--card--header{
+                padding-bottom: 1rem;
+
+                h3{
+                    color: #fff;
+                }
+                .price{
+                    color: #fff;
+                }
+            }
+            .plans--content--card--body{
+                p{
+                    color: #fff;
+                    padding: 1rem 0;
+                }
+                button{
+                    border: 1.5px solid #90FF00;
+                    color: #90FF00;
+
+                    background: linear-gradient(#90FF00 0 0) left / var(--p, 0%) no-repeat;
+                    color: #90FF00;
+                    transition: background .6s, color .1s, background-position 0s;
+                    transition-delay: 0.1s;
+        
+                    &:hover{
+                        color: #181820;
+                        background-position: right;
+                        --p: 100%;
+                    }
+                }
+            }
+        }
+
+        #advanced-plan{
+            flex: 60%;
+            background: #90FF00;
+            padding: 0 2rem;
+
+            .plans--content--card--header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 1.5rem;
+                border-color: #181820;
+                h3{
+                    color: #181820;
+                }
+                .price{
+                    color: #181820;
+                }
+            }
+            .plans--content--card--body{
+                p{
+                    color: #181820;
+                    padding: 1.5rem 0;
+                }
+                button{
+                    border: 2px solid #181820;
+                    background: linear-gradient(#181820 0 0) right / var(--p, 100%) no-repeat;
+                    color: #fff;
+
+                    transition: background .6s, color .1s, background-position 0s;
+                    transition-delay: 0.1s;
+        
+                    &:hover{
+                        color: #181820;
+                        background-position: left;
+                        --p: 0%;
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}

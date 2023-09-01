@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Fiber Gym</title>
+    <link rel="icon" href="./assets/icons/mfg_logo_bg.png">
+    <link rel="stylesheet" href="css/infinite-scroll/infinite_scroll.css">
+    <link rel="stylesheet" href="css/main/main.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/banner/banner.css">
+    <link rel="stylesheet" href="css/benefits/benefits.css">
+    <link rel="stylesheet" href="css/plans/plans.css">
+    <link rel="stylesheet" href="css/team/team.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a class="navbar-logo" href="index.html">
+                <img src="./assets/icons/mfg_logo.png" alt="Monter Fiber Gym">
+            </a>
+
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="#inicio" class="navbar-link">Início</a></li>
+                <li class="navbar-item"><a href="#beneficios" class="navbar-link">Benefícios</a></li>
+                <li class="navbar-item"><a href="#time" class="navbar-link">Time</a></li>
+                <li class="navbar-item"><a href="#planos" class="navbar-link" id="link-plans">Planos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="inicio" class="banner">
+            <div class="banner--content">
+                <h1 class="banner--content-title">
+                    Para quem quer <br> 
+                    ficar <span class="brand-color">monstrão!</span>
+                </h1>
+                <p class="banner--content-subtitle">
+                    provemos as melhores máquinas para você alcançar seus objetivos! <br>
+                    Crescer, competir e se tornar um <span class="brand-color">monster</span>.
+                </p>
+                <a href="#planos">
+                    <button class="banner--content-cta">Quero Conhecer</button>
+                </a>
+            </div>
+        </div>
+        
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="thumbContainer">
+                        <div class="projectInfo">
+                            <h3 class="serif">Fique Monstro</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="thumbContainer">
+                        <div class="projectInfo">
+                            <h3 class="serif">Natty or fake Natty</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="thumbContainer">
+                        <div class="projectInfo">
+                            <h3 class="serif">Fique Monstro</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="thumbContainer">
+                        <div class="projectInfo">
+                            <h3 class="serif">Natty or fake Natty</h2>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+        <div id="beneficios" class="benefits">
+            <div class="benefits--header">
+                <div class="benefits--header--title">
+                    <h2>
+                        Benefícios Exclusivos Para Você!
+                    </h2>
+                    <p>Venha fazer parte do nosso time <span>exclusivo de atletas</span></p>
+                </div>
+                <a href="#planos">
+                    <button class="benefits--header--cta">
+                        Acessar Benefícios
+                    </button>
+                </a>
+            </div>
+            <div class="benefits--items">
+                <div class="card">
+                    <img class="card--highlight" src="./assets/icons/diamond.svg">
+                    <div class="card--hover">
+                        <p>
+                            Contamos com mais de 50 máquinas, das melhores marcas do mundo!
+                            Cerca de 10 máquinas para cada agrupamento muscular.
+                        </p>
+                    </div>
+                    <div class="card--footer">
+                        <h4>Melhores Máquinas</h4>
+                        <img src="./assets/icons/arrow-pointer.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card--highlight" src="./assets/icons/diamond.svg">
+                    <div class="card--hover">
+                        <p>
+                            Nosso time, conta com mais de 15 profissionais da educação e da saúde
+                            altamente capacitados, para lhe atender e auxiliar, sempre 
+                            que necessário.
+                        </p>
+                    </div>
+                    <div class="card--footer">
+                        <h4>Time excelente</h4>
+                        <img src="./assets/icons/arrow-pointer.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card--highlight" src="./assets/icons/diamond.svg">
+                    <div class="card--hover">
+                        <p>
+                            Pra você que quer ficar monstrão, contamos com mais de 60 halteres,
+                            que chegam até 120kgs! Além de barras e anilhas olímpicas, para você
+                            evoluir cada vez mais.
+                        </p>
+                    </div>
+                    <div class="card--footer">
+                        <h4>Halteres Ilimitados</h4>
+                        <img src="./assets/icons/arrow-pointer.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="planos" class="plans">
+            <div class="plans--header">
+                <h2>
+                    Inicie sua jornada escolhendo um <br> 
+                    de nossos planos especiais!
+                </h2>
+                <p>Seu primeiro dia é <span>100% gratúito</span> e acompanhado, venha conhecer!</p>
+            </div>
+            <div class="plans--content">
+                <div class="plans--content--card" id="basic-plan">
+                    <div class="plans--content--card--header">
+                        <h3>
+                            <span>Heavy Weight</span> <br> Intensidade alta
+                        </h3>
+                        <span class="price">
+                            $100 <span class="price-sub">/mês</span>
+                        </span>
+                    </div>
+                    <div class="plans--content--card--body">
+                        <p>
+                            Plano Heavy Weight, pra quem pode treinar
+                            três vezes por semana. Academia liberada 3/7 e 
+                            você possui direito a uma ficha
+                            de treino feita na medida, pra você.
+                        </p>
+                        <a>
+                            <button>
+                                Fazer parte
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="plans--content--card" id="advanced-plan">
+                    <div class="plans--content--card--header">
+                        <h3>
+                            <span>Fibra Monster</span> <br> Se preparando pra guerra
+                        </h3>
+                        <span class="price">
+                            $190 <br> <span class="price-sub">/mês</span>
+                        </span>
+                    </div>
+                    <div class="plans--content--card--body">
+                        <p>
+                            Plano Fibra Monster, pra você que deseja treinar
+                            todos os dias da semana. Academia liberada 24/7, e você
+                            tem direito a uma ficha de treino e de dieta calculados
+                            na mão, especialmente pra você.
+                        </p>
+                        <button>
+                            Fazer parte
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="time" class="team">
+            <div class="team--header">
+                <h2>Profissionais Altamente <span>Capacitados</span></h2>
+                <p>Os melhores profissionais da área médica e educação física, do Brasil.</p>
+            </div>
+            <div class="team--content">
+                <div class="team--content--left-side">
+                    <div class="team-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/images/personal_1.jpg">
+                                </div>
+                                <div class="slide-hover">
+                                    <div class="slide-hover--main-info">
+                                        <h4>Chris Bumstead</h4>
+                                        <span class="register-number">
+                                            Nº 9323323
+                                        </span>
+                                    </div>
+                                    <div class="slide-hover--description">
+                                        <p>
+                                            Professor de educação física, há 10 anos.
+                                            Um de nossos profissionais mais experientes,
+                                            responsável por treinar mais de 200 atletas 
+                                            em sua carreira.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/images/personal_2.jpg">
+                                </div>
+                                <div class="slide-hover">
+                                    <div class="slide-hover--main-info">
+                                        <h4>Angeline Christine</h4>
+                                        <span class="register-number">
+                                            Nº 9124822
+                                        </span>
+                                    </div>
+                                    <div class="slide-hover--description">
+                                        <p>
+                                            Médica e profissional de educação física, com experiênca
+                                            de 15 anos na área. Há 5 anos, transformando vidas,
+                                            supervisionando e escrevendo treinos e dietas para milhares de pessoas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/images/personal_3.jpg">
+                                </div>
+                                <div class="slide-hover">
+                                    <div class="slide-hover--main-info">
+                                        <h4>Stephen Graham</h4>
+                                        <span class="register-number">
+                                            Nº 1252285
+                                        </span>
+                                    </div>
+                                    <div class="slide-hover--description">
+                                        <p>
+                                            CEO da Monster Fiber Gym, e doutor em Educação Física,
+                                            Odontologia e Farmacêutico. Há 20 anos, transformando a vida 
+                                            de milhões de pessoas todos os anos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+                <div class="team--content--right-side">
+                    <div class="team--content--right-side--header">
+                        <h3>Venha se tornar um <span>freak.</span></h3>
+                    </div>
+                    <div class="team--content--right-side--description">
+                        <p>
+                            Nosso centro de treinamento conta com mais de 15 profissionais
+                            para te auxiliar a todo instante. Entre eles, há professores de educação
+                            física, fisioterapeutas e médicos especializados, com décadas de experiência.
+                        </p> 
+                        <div class="description-cta">
+                            <a href="#planos">
+                                <button>Tomei minha decisão</button>
+                            </a>
+                        </div>
+                        <div>
+                            <h4>Em caso de dúvidas:</h4>
+                            <ul>
+                                <li>musclefibergym@mfg.com.br</li>
+                                <li>0800 9122 4555</li>
+                                <li>Rua Dragão do Mar - Centro, Fortaleza - CE</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer--link-row">
+            <div class="footer--link-row--more-info">
+                <img src="./assets/icons/mfg_logo.png">
+                <p>
+                    Aqui, lhe ajudaremos a construir a sua melhor versão. 
+                    Porém, não prometeremos soluções milagrosas, nem caminhos estreitos.
+                    Aqui, prezamos por apenas duas coisas: <b>sangue e suor</b>.
+                    Venha fazer parte.
+                </p>
+            </div>
+            <div class="footer--link-row--links">
+                <div class="external-links">
+                    <h4>
+                        Nossas redes
+                    </h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="internal-links">
+                    <h4>
+                        Links rápidos
+                    </h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#beneficios">Benefícios</a></li>
+                        <li><a href="#time">Time</a></li>
+                        <li><a href="#planos">Planos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer--copy-row">
+            Todos os direitos reservados.<span> Monster Fiber Gym</span> &copy; 2023.
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/infinite_scroll.js"></script>
+</body>
+</html>
