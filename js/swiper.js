@@ -1,7 +1,7 @@
 var infinie_scroll = new Swiper(".swiper-container", {
-  loopedSlides: 4,
+  loopedSlides: 5,
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 4,
   freeMode: true,
   autoplay: {
     delay: 1500,
