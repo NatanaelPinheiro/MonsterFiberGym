@@ -6,8 +6,23 @@
 }
 
 body {
+  position: relative;
   font-family: "Roboto", sans-serif;
   background-color: #181820;
+}
+@media screen and (max-width: 768px) {
+  body:has(.nav-mobile.open) {
+    overflow-y: hidden;
+  }
+  body:has(.nav-mobile.open)::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 14, 18, 0.5921568627);
+    z-index: 10;
+  }
 }
 
 @font-face {

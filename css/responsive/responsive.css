@@ -1,0 +1,333 @@
+@media screen and (max-width: 768px) {
+  header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .banner--content-title {
+    font-size: 30px;
+  }
+  .banner--content-subtitle {
+    line-height: 0.8;
+    font-size: 12px;
+  }
+  .banner--content-cta {
+    padding: 0.8rem 1.5rem;
+  }
+  .swiper-container h3 {
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 14px !important;
+  }
+  .benefits {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .benefits--header--title h2 {
+    font-size: 20px;
+  }
+  .benefits--header--title p {
+    font-size: 12px;
+  }
+  .benefits--header--cta {
+    padding: 0.8rem 1.5rem;
+  }
+  .benefits--items {
+    gap: 1rem;
+  }
+  .benefits--items .card {
+    width: 33%;
+    height: 300px;
+    min-width: 170px;
+  }
+  .benefits--items .card--hover p {
+    color: #ffffff;
+    font-size: 11px;
+  }
+  .benefits--items .card--footer h4 {
+    font-size: 12px;
+  }
+  .plans {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .plans--header h2 {
+    font-size: 20px;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+  .plans--header p {
+    font-size: 12px;
+  }
+  .plans--content--card {
+    justify-content: space-around;
+    flex: 50% !important;
+    height: 350px;
+    max-width: 300px;
+  }
+  .plans--content--card--header h3 {
+    font-size: 15px;
+    margin-bottom: 0.8rem;
+  }
+  .plans--content--card--header h3 span {
+    font-size: 25px;
+  }
+  .plans--content--card--header .price {
+    letter-spacing: normal;
+  }
+  .plans--content--card--body p {
+    font-size: 10px;
+    padding: 0 0 2rem !important;
+  }
+  .plans--content #advanced-plan {
+    padding: 1rem 1.5rem;
+  }
+  .plans--content #advanced-plan .plans--content--card--header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+  }
+  .plans--content #advanced-plan .plans--content--card--header .price .break-on-desktop {
+    display: none;
+  }
+  .team {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .team--header h2 {
+    font-size: 20px;
+  }
+  .team--header p {
+    font-size: 12px;
+  }
+  .team--content--left-side .team-swiper {
+    height: 350px;
+    width: 30vw;
+    min-width: 194px;
+  }
+  .team--content--left-side .team-swiper .swiper-wrapper .swiper-slide .slide-image {
+    min-height: 50%;
+  }
+  .team--content--left-side .team-swiper .swiper-wrapper .swiper-slide .slide-hover {
+    padding: 0.8rem 1rem;
+    height: 50%;
+    justify-content: space-around;
+  }
+  .team--content--left-side .team-swiper .swiper-wrapper .swiper-slide .slide-hover--main-info {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .team--content--left-side .team-swiper .swiper-wrapper .swiper-slide .slide-hover--main-info h4 {
+    font-size: 20px;
+  }
+  .team--content--left-side .team-swiper .swiper-wrapper .swiper-slide .slide-hover--main-info .register-number {
+    font-size: 9px;
+  }
+  .team--content--left-side .team-swiper .swiper-wrapper .swiper-slide .slide-hover--description {
+    line-height: 1.1;
+    font-size: 10px;
+    margin: 0.6rem 0 1.2rem 0;
+  }
+  .team--content--left-side .team-swiper .swiper-pagination {
+    bottom: 0.6rem;
+  }
+  .team--content--left-side .team-swiper .swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+  }
+  .team--content--right-side--header h3 {
+    font-size: 20px;
+  }
+  .team--content--right-side--description p, .team--content--right-side--description li {
+    font-size: 10px;
+  }
+  .team--content--right-side--description h4 {
+    font-size: 14px;
+  }
+  .team--content--right-side--description .description-cta button {
+    padding: 0.8rem 1.5rem;
+  }
+  .footer {
+    padding: 0 2rem;
+  }
+  .footer--link-row--more-info img {
+    height: 40px;
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  .footer--link-row--more-info p {
+    max-width: 200px;
+    font-size: 10px;
+  }
+  .footer--link-row--links {
+    gap: 1.5rem;
+  }
+  .footer--link-row--links h4 {
+    font-size: 15px;
+    margin-bottom: 1rem;
+  }
+  .footer--link-row--links li {
+    margin-bottom: 0.6rem;
+  }
+  .footer--link-row--links li a {
+    font-size: 12px;
+  }
+  .footer--copy-row {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header #navbar .nav-mobile {
+    width: 75%;
+  }
+  .swiper-container h3 {
+    font-size: 12px !important;
+  }
+  .benefits {
+    padding-top: 2rem;
+  }
+  .benefits--header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .benefits--header--title {
+    text-align: center;
+  }
+  .benefits--items {
+    flex-direction: column;
+  }
+  .benefits--items .card {
+    width: 70%;
+  }
+  .plans {
+    padding-top: 2rem;
+  }
+  .plans--content {
+    flex-direction: column-reverse;
+  }
+  .plans--content--card--body p {
+    padding-top: 1rem !important;
+  }
+  .plans--content--card--body button {
+    width: 100%;
+  }
+  .team {
+    padding: 2rem;
+  }
+  .team--header {
+    text-align: center;
+  }
+  .team--header h2 {
+    line-height: 1.2;
+  }
+  .team--content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team--content--left-side .team-swiper {
+    width: 80%;
+    max-width: 260px;
+    min-width: 80%;
+    margin: 0 auto;
+  }
+  .team--content--right-side {
+    margin-top: 1rem;
+  }
+  .footer--link-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .footer--link-row--more-info p {
+    max-width: none;
+    width: 100%;
+    font-size: 10px;
+  }
+  .footer--link-row--links {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer--link-row--links h4 {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+  .footer--link-row--links ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer--link-row--links ul li {
+    position: relative;
+    padding-right: 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+  .footer--link-row--links ul li a {
+    padding-right: 0.7rem;
+    font-size: 10px;
+  }
+  .footer--link-row--links ul li::after {
+    content: "/";
+    color: rgba(255, 255, 255, 0.5215686275);
+    font-size: 9px;
+  }
+  .footer--copy-row {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .banner--content-title {
+    font-size: 25px;
+  }
+  .banner--content-subtitle {
+    line-height: 1;
+    font-size: 10px;
+  }
+  .banner--content-subtitle span.brand-color {
+    font-size: 20px;
+  }
+  .banner--content-cta {
+    padding: 0.8rem 1.5rem;
+  }
+  .benefits--header--title h2 {
+    font-size: 16px;
+  }
+  .benefits--header--title p {
+    font-size: 11px;
+  }
+  .benefits--items .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .plans--header h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .plans--header h2 .desktop-only {
+    display: none;
+  }
+  .plans--header p {
+    font-size: 11px;
+  }
+  .team--header h2 {
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+  }
+  .team--header p {
+    font-size: 11px;
+  }
+  .team--content--left-side .team-swiper {
+    width: 90vw;
+  }
+  .team--content--right-side--header h3 {
+    font-size: 15px;
+  }
+  .team--content--right-side--description p, .team--content--right-side--description li {
+    font-size: 10px;
+  }
+  .team--content--right-side--description h4 {
+    font-size: 11px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

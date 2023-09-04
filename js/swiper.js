@@ -1,7 +1,10 @@
+let isTablet = window.innerWidth < 600;
+let isMobile = window.innerWidth < 400;
+
 var infinie_scroll = new Swiper(".swiper-container", {
-  loopedSlides: 5,
+  loopedSlides: isTablet ? isMobile ? 3 : 4 : 5,
   loop: true,
-  slidesPerView: 4,
+  slidesPerView: isTablet ? isMobile ? 2 : 3 : 4,
   freeMode: true,
   autoplay: {
     delay: 1500,

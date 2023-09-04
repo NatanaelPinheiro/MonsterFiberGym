@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="css/plans/plans.css">
     <link rel="stylesheet" href="css/team/team.css">
     <link rel="stylesheet" href="css/footer/footer.css">
-    
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/responsive/responsive.css">
 </head>
 <body>
     <header>
@@ -32,6 +32,35 @@
                 <li class="navbar-item"><a href="#time" class="navbar-link">Time</a></li>
                 <li class="navbar-item"><a href="#planos" class="navbar-link" id="link-plans">Planos</a></li>
             </ul>
+
+            <div class="menu">
+                <span class="menu-bar"></span>
+            </div>
+
+            <div class="nav-mobile">
+                <ul class="nav-mobile--list">
+                    <li class="nav-mobile--list--item">
+                        <a href="#inicio" class="navbar-link">
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-mobile--list--item">
+                        <a href="#beneficios" class="navbar-link">
+                            Benefícios
+                        </a>
+                    </li>
+                    <li class="nav-mobile--list--item">
+                        <a href="#time" class="navbar-link">
+                            Time
+                        </a>
+                    </li>
+                    <li class="nav-mobile--list--item">
+                        <a href="#planos" class="navbar-link" id="link-plans">
+                            Planos
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -145,10 +174,10 @@
         <div id="planos" class="plans">
             <div class="plans--header">
                 <h2>
-                    Inicie sua jornada escolhendo um <br> 
+                    Inicie sua jornada escolhendo um <br class="desktop-only"> 
                     de nossos planos especiais!
                 </h2>
-                <p>Seu primeiro dia é <span>100% gratúito</span> e acompanhado, venha conhecer!</p>
+                <p>Seu primeiro dia é <span>100% gratuito</span> e acompanhado, venha conhecer!</p>
             </div>
             <div class="plans--content">
                 <div class="plans--content--card" id="basic-plan">
@@ -180,7 +209,7 @@
                             <span>Fibra Monster</span> <br> Se preparando pra guerra
                         </h3>
                         <span class="price">
-                            $190 <br> <span class="price-sub">/mês</span>
+                            $190 <br class="break-on-desktop"> <span class="price-sub">/mês</span>
                         </span>
                     </div>
                     <div class="plans--content--card--body">
@@ -336,12 +365,15 @@
             </div>
         </div>
         <div class="footer--copy-row">
-            Todos os direitos reservados.<span> Monster Fiber Gym</span> &copy; 2023.
+            <p>
+                Todos os direitos reservados.<span> Monster Fiber Gym</span> &copy; 2023.
+            </p>
         </div>
     </footer>
 
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
+    <script src="./js/utils.js"></script>
 </body>
 </html>
